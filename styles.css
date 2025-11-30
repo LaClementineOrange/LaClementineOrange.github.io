@@ -9,7 +9,7 @@
 }
 
 body {
-  color: white;
+  color: rgb(255, 255, 255);
   font-family: "Inter";
 }
 
@@ -64,4 +64,49 @@ img {
 }
 #git_logo:hover {
 	background-color: #000000;
+}
+
+#back {
+  width: 90%;
+  height: 90vh;
+  margin: 2.5% auto;
+  background-color: #000000;
+  border-radius: 8px;
+  box-shadow: 0 0 20px #000;
+  border: 1px solid #000000;
+  overflow: hidden;
+}
+
+#bar {
+  height: 5vh;
+  background-color: #333333;
+  border-radius: 8px 8px 0 0;
+  border: 0px solid #333333;
+}
+
+#tab {
+  position: relative;
+  height: 1000vh;
+  background-color: #000000;
+  border-radius: 8px 8px 0 0;
+  width: 15%;
+  top: 10px;
+  left: 10px;
+  padding-top: 0.5% ;
+  padding-left: 5px;
+  padding-right: 5px
+}
+
+#croix {
+  position: relative;
+  left: 85%;
+  height: 30px;
+  width: 30px;  
+  border-radius: 8px;
+  text-align: center;
+  justify-content: center;
+}
+#croix:hover {
+	background-color: #6d6b6b;
+  cursor: pointer;
 }
