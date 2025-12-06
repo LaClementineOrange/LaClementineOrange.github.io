@@ -181,3 +181,14 @@ h3 {
 #git_logo:hover {
 	background-color: #000000;
 }
+
+.typing_animation {
+  overflow: hidden; /* Assure que le texte déborde */
+  white-space: nowrap; /* Empêche le texte de passer à la ligne */
+  animation: typing 1.5s steps(5); 
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 5ch } /* ch = nb charactères */
+}
